@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="node_modules\jquery\dist\jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="src/app.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="banner-job">
+        <div class="banner-overlay"></div>
+        <div class="container text-center">
+            <h1 class="title">Collegeep Serch</h1>
+            <h3>원하시는 학과를 쉽게 검색해 보세요.</h3>
+            <div class="banner-form">
+                <form class="banner-form" action="#">
+                    <div class="input-group">
+                        <input type="text" class="form-control" aria-label="..." placeholder="학과명">
+                        <div class="input-group-btn">
+                            <button type="button" id="location-btn" class="btn btn-default dropdown-toggle category-dropdown" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false"><span id="location-name">지역</span> <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">서울</a></li>
+                                <li><a href="#">부산</a></li>
+                                <li><a href="#">대구</a></li>
+                                <li><a href="#">인천</a></li>
+                                <li><a href="#">광주</a></li>
+                                <li><a href="#">대전</a></li>
+                                <li><a href="#">울산</a></li>
+                                <li><a href="#">경기</a></li>
+                                <li><a href="#">강원</a></li>
+                                <li><a href="#">충북</a></li>
+                                <li><a href="#">충남</a></li>
+                                <li><a href="#">전북</a></li>
+                                <li><a href="#">전남</a></li>
+                                <li><a href="#">경북</a></li>
+                                <li><a href="#">경남</a></li>
+                                <li><a href="#">제주</a></li>
+                                <li><a href="#">세종</a></li>
+                            </ul>
+
+                            <button type="submit" class="btn btn-primary category-dropdown" value="Search">Search</button>
+                        </div>
+                        <!-- /btn-group -->
+                    </div>
+                    <!-- /input-group -->
+                </form>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="list">
+        <p id="listname">학과검색</p>
+    </div>
+    <main class="container">
+        <div class="result-view">
+            <table class="table table-hover table-bordered">
+                <thead class="top-menu">
+                    <tr>
+                        <td>학과명<img src="./images/bg/college2.png" hspace="10" vspace="0"></td>
+                        </td>
+                        <td>학교종류<img src="./images\bg\establishment.png" hspace="10" vspace="0"></td>
+                        <td>학과종류<img src="./images\bg\book.png" hspace="10" vspace="0"></td>
+                        <td>지역<img src="./images\bg\map.png" hspace="10" vspace="0"></td>
+                        <td>설치유형<img src="./images\bg\private.png" hspace="10" vspace="0"></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    </tbody>
+            </table>
+            <div class="pagebox">
+                <div id="page_list">
+                    <ul class="pages">
+                        <li>
+                            <img src="./images\bg/left.png" alt="이전">
+                            <li class="num">1</li>
+                            <li class="num">2</li>
+                            <li class="num">3</li>
+                            <li class="num">4</li>
+                            <li class="num">5</li>
+                            <li class="num">6</li>
+                            <li class="num">7</li>
+                            <li class="num">8</li>
+                            <li class="num">9</li>
+                            <li class="num">10</li>
+                            <li>
+                                <img src="./images\bg/right.png" alt="다음">
+                    </ul>
+                </div>
+            </div>
+    </main>
+    <footer class="row">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi dolore placeat natus nam veniam necessitatibus quasi aperiam
+        impedit pariatur tempora eaque eveniet, amet officia non vero atque voluptatum consequatur asperiores.
+    </footer>
+
+</body>
+
+</html>

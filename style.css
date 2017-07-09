@@ -1,0 +1,99 @@
+.banner-form input {
+    padding: 0 18px 0;
+    margin: 0;
+    font-family: 'MyriadPro-Regular', sans-serif;
+    border: none;
+}
+
+.banner-form .form-control, .banner-form .category-dropdown {
+    display: inline-block;
+    height: 46px;
+    font-size: 16px;
+    color: #000;
+}
+
+.title {
+    line-height: 34px;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+.banner-job {
+	background-image: url(../images/bg/job-bg.jpg);
+	background-repeat: no-repeat;
+	/*background-size: cover;*/
+	color: #fff;
+	position: relative;
+	z-index: 1;
+	padding: 65px 0 75px;
+}
+
+.banner-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-color: rgba(40, 45, 50, 0.9);
+}
+
+.banner-job h1 {
+	font-size: 51px;
+}
+
+.banner-job h3 {
+	font-size: 22px;
+	font-weight: 300;
+	margin: 25px 0 30px;
+}
+
+.input-group-btn:last-child > .dropdown-toggle {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    }
+.top-menu{
+    font-size: 16px;
+    font-weight:bold;
+    text-align:center;
+    border-style:solid;
+    border-color:gray;
+    
+}
+.list p{
+    float: left;
+    width: 100%;
+    padding:20px;
+    line-height: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    color:skyblue;    
+}
+.pagebox {
+    float:left;
+    width:100%;
+}
+.pagecont{
+    width: 100%;
+    float: left;
+    padding: 10px;
+}
+ul.pages .num {
+    padding: 0 5px;
+}
+ul.pages li {
+    display: inline;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .banner-job h1 {
+        font-size: 40px; 
+    }
+}
+
+@media (max-width: 767px) {
+    .banner-job h1 {
+        font-size: 36px;
+        line-height: 38px;
+    }
+}
